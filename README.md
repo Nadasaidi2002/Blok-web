@@ -116,11 +116,12 @@ responisve
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  Sjors            |      Aaminah       |           | ---              |
-  | Ik zou graag willen weten of er een tijdschema is voor de website, of dat we zelf volledig het tempo bepalen."  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | student 1      | student 2          | student 3    | student 4       
+  Sjors            |      Aaminah       |     nada      
+  | 1. Ik zou graag willen weten of er een tijdschema is voor de website, of dat we zelf volledig het tempo bepalen." 
+  | 2. Ik wil graag bespreken of mijn html in orde is.
+  | 3. Ik weet nog niet helemaal hoe ik het bovenste gedeelte van de 2e pagina in elkaar zit kwa html
+    4. Ik wil iets laten scrollen, maar de srollbar moet niet zichtbaar zijn. Ook wil ik graag weten hoe ik een timer op een carousel/slider kan zetten met een counter erbij.
 
 
   ### Verslag van meeting
