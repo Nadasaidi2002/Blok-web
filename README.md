@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Sanne 't Hooft (Nada)
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  blauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  responsive
  
 </details>
 
@@ -117,12 +117,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  1. Ik zou graag willen weten of er een tijdschema is voor de website, of dat we zelf volledig het tempo bepalen." 
+  | 2. Ik wil graag bespreken of mijn html in orde is.
+  | 3. Ik weet nog niet helemaal hoe ik het bovenste gedeelte van de 2e pagina in elkaar zit kwa html
+    4. Ik wil iets laten scrollen, maar de srollbar moet niet zichtbaar zijn. Ook wil ik graag weten hoe ik een timer op een carousel/slider kan zetten met een counter erbij.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -152,11 +150,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Aaminah :Ik wil graag weten hoe ik een infinite slider kan maken met een timer en een counter die laat zien welke img van de slider te zien is
+  Ik wil graag weten hoe je een scrollbar weghaald
+  Ik wil graag weten hoe je een stuk tekst halverwege kan laten stoppen en meer tekst laat zien wanneer het scherm groter wordt
 
 
+
+
+NADA : Ik wil graag weten hoe ik een uitklap footer maak
+  Ik wil  weten hoe ik plaatjes naast elkaar krijg en responsive is
+ Sjors;  Ik zou graag willen weten of de HTML van mijn navigatie semantisch correct is.
+
+
+ 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
