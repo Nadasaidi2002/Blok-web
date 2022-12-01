@@ -24,8 +24,14 @@ button, summary {
 	--color-background:#eee;
 }
 
-
-
+@font-face {
+	font-family: sodosansregular;
+	src: url(../fonts/SoDoSans-Regular.woff);
+}
+@font-face {
+	font-family: sodosanslight;
+	src: url(../fonts/SoDoSans-Light.woff);
+}
 
 
 /********************/
@@ -42,7 +48,13 @@ button, summary {
 	width: 1px;
   }
 
-
+ h2 {
+	 font-family: sodosansregular,sans-serif;
+	 
+ }
+p{
+	font-family: sodosanslight, sans-serif;
+}
 
 /**********/
 /* HEADer */
@@ -55,7 +67,55 @@ header {
 
 }
 
+/* hamburgerbutton */
+header button{
+	background-color: rgba(192, 192, 192, 0.993);
+	border: none;
+	border-radius: 50%;
+	width: 4em;
+	height: 4em;
 
+	display:grid;
+	justify-content: center;
+	align-items: center;
+
+	z-index:200;
+
+}
+
+header button span{
+	display: block;
+	background-color: rgb(29, 143, 99);
+	border-radius: 3em;
+	width: 1.5em;
+	height: .3em;
+	grid-column-start:1;
+	grid-row-start:1;
+	
+	transition:.3s;
+}
+
+header button span:nth-of-type(1) {
+	transform:translateY(-.5em);
+}
+
+header button span:nth-of-type(3) {
+	transform:translateY(.5em);
+}
+
+header button.open span:nth-of-type(1) {
+	transform:rotate(45deg) scaleX(1.125);
+}
+
+header button.open span:nth-of-type(2) {
+	transform:scaleX(0);
+}
+
+header button.open span:nth-of-type(3) {
+	transform:rotate(-45deg) scaleX(1.125);
+}
+
+/* uitschuifmenu  */
 header nav{
 	position: fixed;
 	top:0;
@@ -65,7 +125,14 @@ header nav{
 
 	background-color: orange;
 	
-	transform: translateX(99%);
+	transform: translateX(100%);
+	transition: 2s;
+	z-index: 100;
+
+}
+
+header nav.open{
+	transform: translateX(0%);
 
 }
 
@@ -79,7 +146,6 @@ header nav ul {
 }
 
 /* logo */
-
 header a img {
 	width: 2.5em; 
 }
@@ -91,47 +157,124 @@ header a img {
 /* MAIN */
 /****************/
 
-/* jouw code */
-
 main{
 	display: flex;
 	flex-direction: column;
+	background-color: rgba(241, 239, 239, 0.993);
+
 }
+
+
+/* section met d link */
+
+/* SECTION 1 */
 main > section:first-of-type{
 	position: relative;
 	/* op parents zet dan zorg je dat hij niet buiten het vak valt van plaatje*/
 	display: flex;
+
+	height:120vw;
+	max-height:30em;
 }
 
-main > section:first-of-type a{
+section:first-of-type img{
+	width: 100%;
+	/* sanne */
+	height:100%;
+
+	object-fit: cover;
+	object-position: center 30%;
+}
+
+main > section:first-of-type a {
 	position: absolute;
 	/* dat de rest van de cotent negeerd en komt recht boven */
-}
-
-main > section:first-of-type a:nth-child(2){
-	bottom: 5em;
-	left: 2em;
-}
-
-main > section:first-of-type a:nth-child(3){
+	transition: 0.3s;
+	border: solid 0.075em white;
+	border-radius: 3em;
+	padding: 0.5em 1.25em 0.5em 1.25em;
+	color: white;
+	text-decoration: none; 
+	
 	
 }
 
-section img:nth-child(1){
-	width: 35em;
-	height: 25em;
-}
-main section:first-of-type{
-	grid-column-start: 1;
-	grid-column-end: -1;
-	grid-row-start: 3;
-	grid-row-end: 4;
+main > section:first-of-type a:nth-of-type(1){
+	bottom: 5.5em;
+	left: 2em;
 }
 
-main section img{
-	width: 9em;
+main > section:first-of-type a:nth-of-type(2){
+	bottom: 2em;
+	left: 2em;
 }
 
-section img{
-	width: 100em;
+main > section:first-of-type a:hover {
+
+}
+
+main > section:first-of-type a:active {
+	transform:scale(.8);
+}
+
+
+
+/* SECTION 2 */
+
+main section:nth-of-type(2) a, main section:nth-of-type(3) a {
+	border: solid 0.075em rgb(29, 143, 99);
+	border-radius: 3em;
+	padding: 0.5em 1.25em 0.5em 1.25em;
+	color: rgb(29, 143, 99);
+	text-decoration: none; 
+
+	width:max-content;
+	font-family: sodosansregular;
+
+}
+main section:nth-last-of-type(2), main section:nth-last-of-type(3), main section:nth-last-of-type(4) {
+	box-shadow: .5em .5em .5em rgba(192, 192, 192, 0.993);
+	background-color: white;
+	margin-bottom: 2em;
+}
+
+section:nth-of-type(2)
+{display: flex;
+flex-direction: column;
+gap: 1em;
+}
+
+section:nth-of-type(2) img{
+	width: 100%;
+	height: auto;
+	order: -100;
+	
+}
+
+section:nth-of-type(2) p {
+	width: 90%;
+	margin: auto;
+}
+
+/* section 3 starbucks deliver */
+
+
+section:nth-of-type(3)
+{display: flex;
+flex-direction: column;}
+
+
+section:nth-of-type(3) img{
+	order: -100;
+
+}
+/* Over eerste p naar boven halen */
+section:nth-of-type(3) p:first-of-type{
+	order: -150;
+}
+
+/* section 4 verhalen */
+
+main section:nth-of-type(4) img {
+	width:80%;
 }
