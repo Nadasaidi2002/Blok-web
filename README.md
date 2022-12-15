@@ -39,12 +39,12 @@ Nada Saidi
 https://www.starbucks.nl/nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-img<>
+<img src="./images/volledige-pagina.png" alt="" class="">
 
  
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+<img src="./images/helepagina2.png" alt="">
 
  
 </details>
@@ -93,13 +93,20 @@ Als oplossing zou kunnen zijn dat er een darkmode in komt. IK heb zelf responsiv
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  
+<img src="./images/eindpaginamobiel.png" alt="">
+<img src="./images/eindpagina2.png" alt="">>
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+ 
+
+<img src="./images/hamburger-menu.png" alt="">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch 
+  deel">
+  <img src="./images/Uitlkap.footer.png" alt="">
+  <img src="./images/breakdownschet.png
 
 </details>
 
@@ -115,6 +122,8 @@ Als oplossing zou kunnen zijn dat er een darkmode in komt. IK heb zelf responsiv
   ### Stand van zaken
 
 Deze week ging wel oke vond ik zelf, Ik merkte dat ik het best lastig vond om een start te maken en om te kijken hoe ik nou zo'n site kon maken. Ik heb nog niet veel kunnen doen omdat ik best nog veel vragen heb. Ik vind het best moeilijk om een start te maken .
+
+<img src="./images/code 2.png" alt="">
 
 
   <!-- hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code) -->
@@ -137,10 +146,7 @@ Deze week ging wel oke vond ik zelf, Ik merkte dat ik het best lastig vond om ee
 
  Wij waren tevreden met de feedback en konden gelijk verder
 
-</details>6
-
-
-
+</details>
 
 
 ## Voortgang 2 (week 3)
@@ -154,9 +160,8 @@ Deze week ging wel oke vond ik zelf, Ik merkte dat ik het best lastig vond om ee
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | Aaminah :Ik wil graag weten hoe ik een infinite slider kan maken met een timer en een counter die laat zien welke img van de slider te zien is
+  
+  Aaminah :Ik wil graag weten hoe ik een infinite slider kan maken met een timer en een counter die laat zien welke img van de slider te zien is
   nada: Ik wil graag weten hoe je een scrollbar weghaald
   Nada: Ik wil graag weten hoe je een stuk tekst halverwege kan laten stoppen en meer tekst laat zien wanneer het scherm groter wordt
 
@@ -218,8 +223,6 @@ Er is geen gebruik gemaakt van een darkmode en ik heb dit ook nog niet kunnen to
 
 
 
-
-
 ## Voortgang 3 (week 4)
 
 <details>
@@ -257,20 +260,26 @@ Nada : Hoe krijg ik een grid breed.
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="./images/eindpaginamobiel.png" alt="">
+<img src="./images/eindpagina2.png" alt="">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
+<img src="./images/leer1.knoppen op plaatje.png" alt="">
+<img src="./images/leer2 grid toepassen.png" alt="">
+<img src="./images/leer-hamburgermenu.png" alt="">
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+Ik heb tijdens het coderen ondanks ik echt heel veel moeite mee heb best veel dingen waar ik trots op ben. Het is gelukt om als eerst een knop in een plaatje te zetten, Ook is gelukt om een hamburger menu in te zetten. Ik ben heel trots op wat ik heb gemaakt. vooral omdat ik erg veel moeite heb.
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+Tijdens het coderen liep ik tegen een aantal dingen aan, 1 hiervan is dat de talen menu niet gelukt is , ik vond dit heel lastig en jammer maar ik heb het wel gerobeerd.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
-</details>
+Ook lukte het niet om  de buttoms allemaal een kleur te geven bij het tabben. Dit vond ik heel lastig om te doen.
+
+<img src="./images/niet gelukt.png" alt="">
+<img src="/images/niet gelukt.png2.png" alt="">
 
 
 
@@ -279,12 +288,17 @@ Nada : Hoe krijg ik een grid breed.
 ## Bronnenlijst
 
 <details open>
-  <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
+  1. https://codepen.io/shooft/pen/KKeGEye 
+  2.footer uitklaps: https://codepen.io/shooft/pen/zYamYyx
+  3. buttons: https://codepen.io/shooft/pen/YzvOYLO
+  4.responsive grid https://codepen.io/shooft/pen/gOKzzBM
+  5.foto met tekst: https://codepen.io/shooft/pen/jOKzRoK
+  6.dingen accessible verbergen en een skip to content link: https://codepen.io/shooft/pen/wvXpRwe
+  7. voor de states:https://www.w3schools.com/cssref/sel_hover.php
 
-  1. bron 1
-  2. bron 2
-  3. ...
+
+
+
 
 </details>
