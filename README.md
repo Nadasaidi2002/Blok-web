@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (Nada)
+Nada Saidi
 
   #### Je startniveau:
   blauw
@@ -36,15 +36,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+https://www.starbucks.nl/nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+img<>
+
+ 
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+
  
 </details>
 
@@ -56,31 +57,32 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+ Tijdens het testen samen met Julia ben ik eracher gekomen dat een aantal dingen niet goed werkte en of onduidelijk waren. De bevinden die mij zijn opgevallen zijn: Er is geen gebruik gemaakt van darkmode,De knoppen zijn best onduidelijk en niet leesbaar. Je krijgt bijna geen feedback , er is geen hover te zien als je erover heen gaat. En wanneer een hover wordt gebruikt, valt het niet op en is heel onduidelijk.
 
   #### Screenreader
+  Tijdens De screenreader was het mij opgevallen dat alles het wel deed, Het was duidelijk wat er werd opgenoemd en wat er gebuerde,
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Er is voor de screenreader geen oplossing nodig omdat alles netjes werkt zoals het hoort te werken.
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+De muis en toetsenbord doet het prima, je kan alles met toetsenbord en muis openen, wat jammer is is dat er geen duidelijke hoever aanwezig is of feedback. Zo kan het best onduidelijk zijn hoe het te werk gaat.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+Om dit op te lossen is er een mogelijkheid om een hover te gebruiken zo is het duidelijker hoe iets werkt en wat er nou daadwerkelijk gebuerd.
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+tijdens shocks en elastiekjes merkte ik dat het best wel lastig is om zoiets te besturen vooral bij de footer omdat die heel klein is, dit wil ik veranderen zodat het beter klikbaar is.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+Het is een oplossing om de buttons wat groter te maken zo is het makkelijker klikbaar en kun je de knoppen haast niet missen als je een shock krijgt.
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+De webiste is goed te bekijken, er is geen dark mode aanwezig wat wel jammer is. Het is fijn om zoiets te gebruiker omdat de webiste van starbucks veel witte afbeeldingen bevat die heel helder en duidelijk zijn.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+Als oplossing zou kunnen zijn dat er een darkmode in komt. IK heb zelf responsive gekozen waardoor ik me meer ga focussen op andere elementen dan dark en light mode.
 </details>
 
 
@@ -111,26 +113,31 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+Deze week ging wel oke vond ik zelf, Ik merkte dat ik het best lastig vond om een start te maken en om te kijken hoe ik nou zo'n site kon maken. Ik heb nog niet veel kunnen doen omdat ik best nog veel vragen heb. Ik vind het best moeilijk om een start te maken .
+
+
+  <!-- hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code) -->
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  1. Ik zou graag willen weten of er een tijdschema is voor de website, of dat we zelf volledig het tempo bepalen." 
-  | 2. Ik wil graag bespreken of mijn html in orde is.
-  | 3. Ik weet nog niet helemaal hoe ik het bovenste gedeelte van de 2e pagina in elkaar zit kwa html
+  1.  Aaminah: Ik zou graag willen weten of er een tijdschema is voor de website, of dat we zelf volledig het tempo bepalen." 
+  | 2. Aamninah en nada  Ik wil graag bespreken of mijn html in orde is.
+  | 3. Nada; Ik weet nog niet helemaal hoe ik het bovenste gedeelte van de 2e pagina in elkaar zit kwa html
     4. Ik wil iets laten scrollen, maar de srollbar moet niet zichtbaar zijn. Ook wil ik graag weten hoe ik een timer op een carousel/slider kan zetten met een counter erbij.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+ Tijdens de feedback gesprekken zijn alle punten besproken en we zijn goed aangestuurd door de docent om verder te werken aan de code.
 
-</details>
+ ik wou graag me html bespreken om te kijken of de opzet zelf wel goed is en wat ik kan veranderen om het nog beter te maken. Aaminah wou een slider erin zetten de docent hielp hierbij en antwoorde de vragen die zij nodig had.
+
+ Wij waren tevreden met de feedback en konden gelijk verder
+
+</details>6
 
 
 
@@ -142,8 +149,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+ Ik ben nu verder gekomen met mijn site en ben enorm te vreden met wat ik heb kunnen maken. Ik ben enorm blij met mijn hamburger menu en ik kan niet geloven dat dit mijn gelukt is . Ik ben echt trots met hoe ver ik al ben gekomen met weinig kennis.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -151,26 +157,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
   | Aaminah :Ik wil graag weten hoe ik een infinite slider kan maken met een timer en een counter die laat zien welke img van de slider te zien is
-  Ik wil graag weten hoe je een scrollbar weghaald
-  Ik wil graag weten hoe je een stuk tekst halverwege kan laten stoppen en meer tekst laat zien wanneer het scherm groter wordt
+  nada: Ik wil graag weten hoe je een scrollbar weghaald
+  Nada: Ik wil graag weten hoe je een stuk tekst halverwege kan laten stoppen en meer tekst laat zien wanneer het scherm groter wordt
 
 
 
-
-NADA : Ik wil graag weten hoe ik een uitklap footer maak
-  Ik wil  weten hoe ik plaatjes naast elkaar krijg en responsive is
- Sjors;  Ik zou graag willen weten of de HTML van mijn navigatie semantisch correct is.
 
 
  
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
-
+Na de feedback gesprekken heb ik en duidelijker beeld gekregen van hoe ik een teskt anders kan positioneren door grid toe te passen.Ook heeft de docent voorbeelden van codes gestuurd zodat ik dit kan overnemen en beter kan bekijken als dat nodig is.
 </details>
 
 
@@ -182,13 +179,20 @@ NADA : Ik wil graag weten hoe ik een uitklap footer maak
 <details>
   <summary>uitwerken na test in 8e werkgroep</summary>
 
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  	<img src="./readme-images/testen1.png" alt="">
+			<img src="./readme-images/testen2.png..HEIC" alt="">
+			<img src="/readme-images/testen3png.HEIC" alt="">
+			<img src="./readme-images/testen4.png" alt="">
+
+  ### Bevindingen
+  ik heb mijn site weer getest en ik zag zeker een verbetering erin, Klikken gaat beter met iemand die bijv parkison heeft,er is een beter hover ingezet. En de h1 die ik heb is verborgen maar wordt wel opgelezen ineen screenreader
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Tijdens de screenreader liep ik eerst tegen een probleem aan de h1 werd niet opgenoemd en deed het dus niet bij de screenreader
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
+  Dit is opgelost omdat het niet was connectmet de style css, kleine vergissing  maar dat leidde toch veel onduidelijkheid dit is wel goed opgelost uiteindelijk
 
 
   #### Muis en Toetsenbord 
@@ -198,15 +202,17 @@ NADA : Ik wil graag weten hoe ik een uitklap footer maak
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+Alles was makkelijk en goed te bedienen, geen problemen mee gehad.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+ Niet nodig
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+Er is geen gebruik gemaakt van een darkmode en ik heb dit ook nog niet kunnen toepassen, dit is zeker jammer maar daar ben ik helaas nog niet aan toe gekomen.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Door een darkmode toe te passen kan het fijner leesbaar zijn voor iemand die het wat te helder vind.
 
 </details>
 
@@ -220,26 +226,24 @@ NADA : Ik wil graag weten hoe ik een uitklap footer maak
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Deze week ging best goed, de uitklabre footer is mooi gelukt en ben er erg tevreden mee. Wat minder ging was de grid , dit lukte mij steeds niet , ik kreeg hem niet volledig breedt en niet zoals het hoorde, Ik vond dit zo lastig een een aantal traantjes laten vallen.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Aaminah: Ik wil graag weten hoe ik een infinite slider kan maken met een timer en een counter die laat zien welke img van de slider te zien is
+
+  Aamninah: k wil graag weten hoe je een scrollbar weghaald
+
+Nada& Aaminah : Ik wil graag weten hoe je een stuk tekst halverwege kan laten stoppen en meer tekst laat zien wanneer het scherm groter wordt
+
+Aaminah: Ik zou graag willen weten of de HTML van mijn navigatie semantisch correct is.
+Nada : Hoe krijg ik een grid breed.
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+ Tijdens het gesprek ging het wel goed, ik heb antwoord gekregen op bijna alle vragen, helaas is het grid gedeelte niet benatwoord en is het lastig haaalbaar voor mij, toch geef ik niet op en zal proberen alsnog een manier te vinden.
 
 </details>
 

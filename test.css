@@ -1,0 +1,259 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+/* gehele pagina alles , je zegt
+margine buiten elemen , padding in het element */
+
+
+/****************/
+/* MAIN */
+/****************/
+
+
+
+
+main {
+
+    /* display: flex;
+	flex-direction: column;
+	background-color: var(--background-color);
+
+	width: 100%;
+	height: auto; */
+}
+
+
+/* section met d link */
+
+/* SECTION 1 */
+main section:nth-of-type(1) {
+    padding: 0;
+
+    position: relative;
+    /* op parents zet dan zorg je dat hij niet buiten het vak valt van plaatje*/
+    display: flex;
+
+    width: 100%;
+
+    height: 120vw;
+    max-height: 30em;
+
+    background-color: red;
+}
+
+
+main h1 {
+    /* display: none; */
+}
+
+section:first-of-type img {
+    width:100%;
+    /* sanne */
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center 30%;
+}
+
+main>section:first-of-type a {
+    position: absolute;
+    /* dat de rest van de cotent negeerd en komt recht boven */
+    transition: 0.3s;
+    border: solid 0.075em white;
+    border-radius: 3em;
+    padding: 0.5em 1.25em 0.5em 1.25em;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+main>section:first-of-type a:nth-of-type(1) {
+    bottom: 5.5em;
+    left: 2em;
+}
+
+main>section:first-of-type a:nth-of-type(2) {
+    bottom: 2em;
+    left: 2em;
+}
+
+main>section:first-of-type a:hover {}
+
+main>section:first-of-type a:active {
+    transform: scale(.8);
+}
+
+
+
+/* SECTION 2 */
+
+main section:nth-of-type(2) a,
+main section:nth-of-type(3) a {
+    border: solid 0.075em rgb(29, 143, 99);
+    border-radius: 3em;
+    padding: 0.5em 1.25em 0.5em 1.25em;
+    color: rgb(29, 143, 99);
+    text-decoration: none;
+
+    width: max-content;
+    font-family: sodosansregular;
+}
+
+section:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+section:nth-of-type(2) img {
+    width: 100%;
+    height: auto;
+    order: -100;
+
+}
+
+section:nth-of-type(2) p {
+    width: 90%;
+    margin: auto;
+}
+
+/* section 3 starbucks deliver */
+
+
+section:nth-of-type(3) {
+    display: flex;
+    flex-direction: column;
+}
+
+
+section:nth-of-type(4) {
+    background-color: white;
+    padding: 8em 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+section:nth-of-type(4) ul {
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: auto;
+
+    background-color: white;
+    box-shadow: .5em .5em .5em rgba(192, 192, 192, 0.993);
+}
+
+section:nth-of-type(4) ul li {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+section:nth-of-type(4) ul li figure {
+    padding: 0;
+    margin: 0;
+
+    width: 100%;
+    height: 20em;
+
+    /* order: -1; */
+}
+
+section:nth-of-type(4) ul li figure img {
+    padding: 0;
+    margin: 0;
+
+
+    object-fit: cover;
+
+    width: 100%;
+    height: 100%;
+}
+
+section:nth-of-type(4) ul li:nth-child(2) {
+    padding: 2em;
+
+    width: 100%;
+    height: 50%;
+}
+
+section:nth-of-type(4) ul li:nth-child(2) a {
+    border: solid 0.075em rgb(29, 143, 99);
+    border-radius: 3em;
+    padding: 0.5em 1.25em 0.5em 1.25em;
+    color: rgb(29, 143, 99);
+    text-decoration: none;
+    width: max-content;
+    font-family: sodosansregular;
+}
+
+
+section:nth-of-type(3) img {
+    order: -100;
+
+}
+
+/* Over eerste p naar boven halen */
+section:nth-of-type(3) p:first-of-type {
+    order: -150;
+}
+
+
+main>section:nth-of-type(3) {
+    width: 95%;
+    margin: auto;
+}
+
+ain>section:nth-of-type(3) p {
+    width: 80%;
+}
+
+main>section:last-of-type {
+    background-color: rgba(241, 239, 239, 0.993);
+}
+
+
+@media (min-width:60em) {
+    main  {
+        display: grid;
+        grid-template-columns:1fr 2fr ;
+        position: relative;
+   
+       
+    }
+    main section:nth-of-type(1){
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+       grid-row-start: 1;
+       grid-row-end: 4;
+       position: sticky;
+       top: 0px;
+       max-height: 60em;
+       width: 30em;
+
+        
+       
+    }
+
+}
