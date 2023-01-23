@@ -1,0 +1,317 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sodosansregular;
+
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+    gap: 1em;
+}
+
+/* SECTION 1 - groot groen vlak met logo */
+main section:nth-of-type(1) {
+    padding: 0;
+
+    position: relative;
+    /* op parents zet dan zorg je dat hij niet buiten het vak valt van plaatje*/
+    display: flex;
+
+    width: 100%;
+
+    height: 120vw;
+    max-height: 30em;
+
+    /* background-color: red; */
+}
+
+
+
+main>section:nth-of-type(1) h2 {
+    color: white;
+    position: absolute;
+    bottom: 6em;
+    left: 2em;
+}
+
+main>section:nth-of-type(1) img {
+    width: 100%;
+    /* sanne */
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center 30%;
+}
+
+main>section:nth-of-type(1) a {
+    position: absolute;
+    /* dat de rest van de cotent negeerd en komt recht boven */
+    transition: 0.3s;
+    border: solid 0.075em white;
+    border-radius: 3em;
+    padding: 0.5em 1.25em 0.5em 1.25em;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+main>section:nth-of-type(1) a:hover {
+    background-color: var(--starbucks-green);
+    border: none;
+}
+
+main>section:nth-of-type(1) a:focus {
+    background-color: var(--starbucks-green);
+
+}
+
+main>section:nth-of-type(1) a:first-of-type {
+    bottom: 5.5em;
+    left: 2em;
+}
+
+main>section:nth-of-type(1) a:last-of-type {
+    bottom: 2em;
+    left: 2em;
+
+}
+
+main section:nth-of-type(3) li a:hover {
+    color: white;
+    background-color: var(--starbucks-green);
+
+}
+
+main section:nth-of-type(3) li a {
+    transition: 1s;
+}
+
+/* Hier is de styling voor dat met die 4 koffie pakken. */
+
+
+main>section:nth-of-type(2) {
+    font-weight: 400;
+
+}
+
+/* Product lijst */
+
+main>section:nth-of-type(3) ul {
+    padding: 0;
+    margin: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 2em;
+
+    list-style: none;
+}
+
+/* Per product  */
+
+main>section:nth-of-type(3) ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Productfoto */
+
+main>section:nth-of-type(3) ul li img {
+    width: 100%;
+
+    aspect-ratio: 1;
+
+    /* Om ervoor te zorgen dat de productfoto boven de titel komt. */
+    order: -1;
+}
+
+/* Knop in dat lijstje */
+main>section:nth-of-type(3) ul li a {
+    border: solid 0.075em rgb(29, 143, 99);
+    border-radius: 3em;
+    padding: 0.5em 1.25em 0.5em 1.25em;
+    color: rgb(29, 143, 99);
+    text-decoration: none;
+    width: max-content;
+    font-family: sodosansregular;
+}
+
+
+
+main>section:first-of-type a:active {
+    transform: scale(.8);
+}
+
+main>section:nth-of-type(3) p {
+    font-family: sodosansregular;
+}
+
+
+main>section:nth-of-type(3) p {
+    font-family: sodosansregular;
+}
+
+
+
+
+
+
+
+
+main>section:nth-of-type(3) p a {
+    color: green;
+    text-decoration: underline;
+    font-style: normal;
+}
+
+main>section:nth-of-type(2),
+main>section:nth-of-type(3),
+main>section:nth-of-type(4),
+main>article {
+    width: 90%;
+    margin: auto;
+}
+
+
+
+main>section:nth-of-type(4),
+main>section:nth-of-type(5),
+main>section:nth-of-type(6),
+main>section:nth-of-type(7) {
+    width: 90%;
+    margin: auto;
+
+}
+
+main section img {
+    width: 80%;
+}
+
+@media (min-width:60em) {
+
+
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        position: relative;
+    }
+
+    main section:nth-of-type(1) {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        position: sticky;
+        top: 0px;
+        max-height: 80em;
+        /* aminaah & Sanne */
+    }
+
+    main section:nth-of-type(2) {
+        grid-column-start: 2;
+        grid-column-end: 4;
+
+        margin-bottom: 2.5em;
+    }
+
+    main section:nth-of-type(3) {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        margin-bottom: 2.5em;
+
+    }
+
+    main section:nth-of-type(4) {
+        display: grid;
+        grid-column-start: 2;
+        grid-column-end: 4;
+
+
+
+
+    }
+
+    main section:nth-of-type(4) img {
+        width: auto;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 6;
+        grid-row-end: 9;
+
+
+
+    }
+
+    main section:nth-of-type(4) h2 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
+
+    }
+/*  */
+    main section:nth-of-type(4) p:first-of-type {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        font-size: 1.2em;
+
+    }
+
+    main section:nth-of-type(4) ol {
+        width: 90%;
+        justify-self: end;
+
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 8;
+        grid-row-end: 9;
+    }
+
+    main section:nth-of-type(4) ol li {
+        font-size: 0.9em;
+        color: var(--color-texttwee);
+    }
+
+
+    main section:nth-of-type(4) ol li h4 {
+        color: var(--color-text);
+    }
+
+    main section:nth-of-type(4) h3 {
+        width: 85%;
+        justify-self: end;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+
+    main section:nth-of-type(4) p:nth-of-type(2) {
+        width: 85%;
+        justify-self: end;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 7;
+        grid-row-end: 8;
+
+
+    }
+
+}
